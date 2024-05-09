@@ -3,6 +3,7 @@
 // nome de usuário é admin e a senha é senha123. Exiba uma mensagem indicando se o login
 // foi bem-sucedido ou não.
 
+
 let usuario = prompt("Digite seu nome de usuario: ");
 
 let senha = prompt("Digite sua senha: ");
