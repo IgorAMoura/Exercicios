@@ -1,15 +1,28 @@
-let nome = prompt("Ola, digite seu nome: ");
+// contagem 
+// for(let num = 0; num <= 10; num++)
+// {console.log(num)}
 
-console.log("Seja bem vindo " + nome);
+// contagem regressiva
+// for( let cont = 10; cont >= 0; cont--)
+// {console.log(cont)}
 
-let pontos = 100;
+// while
+// let salario = 1000
 
-let bonus = parseInt(prompt("Quantos pontos pontos voce deseja somar"));
+// while( salario < 5000)
+// {salario += 100;
+// console.log("o salario e R$ " +salario)}
 
-let totalPontos = pontos + bonus;
+// let = saldo = 1000
 
-console.log(totalPontos);
+// do{console.log("Esse e o saldo " + saldo)
+// saldo += 100} while(saldo < 5000)
 
-let notaAluno = parseFloat(prompt("Digite a nota do aluno: "));
+// Array
+let frutas = ["Banana", "Laranja", "Maca", "Pitaya", "Melancia"]
+// console.log(frutas [3])
+// frutas.forEach(frutas => 
+// {console.log("A fruta e: " + frutas)})
 
-console.log(notaAluno);
+for(let indice = 0; indice < frutas.length; indice++)
+{console.log(frutas [indice])}
