@@ -19,10 +19,10 @@
 // saldo += 100} while(saldo < 5000)
 
 // Array
-let frutas = ["Banana", "Laranja", "Maca", "Pitaya", "Melancia"]
+// let frutas = ["Banana", "Laranja", "Maca", "Pitaya", "Melancia"]
 // console.log(frutas [3])
 // frutas.forEach(frutas => 
 // {console.log("A fruta e: " + frutas)})
 
-for(let indice = 0; indice < frutas.length; indice++)
-{console.log(frutas [indice])}
+// for(let indice = 0; indice < frutas.length; indice++)
+// {console.log(frutas [indice])}
