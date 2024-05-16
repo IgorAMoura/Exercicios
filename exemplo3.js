@@ -17,9 +17,8 @@
 // let resultado = somar(5, 6, 9)
 
 // objeto
-let professor = {}
-professor.nome = prompt("digite o nome ")
-professor.sobrenome = prompt("digite o sobrenome ")
-professor.idade = parseInt(prompt("digite a idade "))
-
-console.log(professor)
+// let professor = {}
+// professor.nome = prompt("digite o nome ")
+// professor.sobrenome = prompt("digite o sobrenome ")
+// professor.idade = parseInt(prompt("digite a idade "))
+// console.log(professor)
