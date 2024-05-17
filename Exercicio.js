@@ -80,6 +80,9 @@ while(numero !== 0)}
 
 let opcao = window.prompt("MENU\ndigite a opcao que deseja ou sair para encerrar o programa:\n\n1 - Exercicio ver semana\n\n2 - Exercicio notas\n\n3 - Exercicio ver idaden\n\n4 - Exercicio numeros pares\n\n5 - Exercicio tabuada\n\n6 - Exercicio numero zero")
 
+do{opcao = window.prompt("MENU\ndigite a opcao que deseja ou sair para encerrar o programa:\n\n1 - Exercicio ver semana\n\n2 - Exercicio notas\n\n3 - Exercicio ver idaden\n\n4 - Exercicio numeros pares\n\n5 - Exercicio tabuada\n\n6 - Exercicio numero zero")}
+while(opcao != "sair")
+
 switch (opcao)
 {case "1": 
 exercicio1()
@@ -106,5 +109,4 @@ exercicio6()
 break;
 
 default:
-break;
-}
+break; }
